@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color:#001F3F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+nav{
+    background-color: #00BFFF;
+    color: #001F3F;
+}
+.contact-details{
+    background-color: #E0E0E0;
+    color: #001F3F;
+}
+
+#experience {
+    a {
+        color: #00BFFF;
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 768px){
+    .section-name{
+        padding: 7px;
+        background-color: #ebf8ff;
+        border: 0.5px solid blue;
+    }
+}
+
